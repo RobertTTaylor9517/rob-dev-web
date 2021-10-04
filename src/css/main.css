@@ -1,0 +1,8 @@
+.top-div{
+    z-index: 1;
+    position: fixed;
+    /*height: 100%;*/
+    width: 70%;
+    top: 100px;
+    margin: auto;
+}

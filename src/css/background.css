@@ -1,0 +1,37 @@
+:root {
+    --which-left: 0%;
+    --time-interval: 6s;
+}
+
+.main-div{
+    display: grid;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    /*grid-template-columns: repeat(auto-fill, 10%);*/
+    z-index: 0;
+}
+
+.circle{
+    left: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Back_circle {
+        position: fixed;
+        animation: Move-Circle-Up var(--time-interval) normal;
+        /*grid-column-start: var(--which-column);*/
+        overflow: hidden;
+        z-index: 0;
+        left: var(--which-left);
+    }
+}
+
+@keyframes Move-Circle-Up {
+    0% {
+        top:110%;
+    }
+    100% {
+        top:-30%;
+    }
+}
