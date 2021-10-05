@@ -17,7 +17,7 @@ export function generateBackground(){
 function createCircle(){
     let ranLeft = getRandomInt(0, 100)
     let ranSize = getRandomInt(20, 100)
-    let ranTime = getRandomInt(3, 6)
+    let ranTime = getRandomInt(4, 7)
     let text = `<circle fill='white' cx=${ranSize/2} cy=${ranSize/2} r=${ranSize/2}>`
     let circle = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
     circle.setAttribute("height", String(ranSize))
