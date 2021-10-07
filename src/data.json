@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "Battle Royale Plus",
+      "description": "Fun to play Web-Browser Based game Progress through the dungeon in this turn-based rpg simulation",
+      "technologies": ["React", "React-Redux", "Ruby on Rails"],
+      "gitHubLinks": {
+        "frontend": "https://github.com/RobertTTaylor9517/Battle-Royale-Plus-frontend",
+        "backend": "https://github.com/RobertTTaylor9517/Battle-Royale-Plus-backend"
+      },
+      "hostLink": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "technologies": [
+      ],
+      "gitHubLinks": {
+        "frontend": "",
+        "backend": ""
+      },
+      "hostLink": ""
+    }
+  ]
+}

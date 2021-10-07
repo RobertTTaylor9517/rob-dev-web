@@ -3,8 +3,10 @@ import {generateBackground} from './background.js'
 import {generateMain} from './main.js'
 
 function component(){
-    generateBackground()
+    // generateBackground()
     generateMain()
 }
 
-component()
+document.addEventListener('DOMContentLoaded', () => {
+    component()
+})

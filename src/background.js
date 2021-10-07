@@ -22,7 +22,6 @@ function createCircle(){
     let circle = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
     circle.setAttribute("height", String(ranSize))
     circle.setAttribute("width", String(ranSize))
-    // circle.setAttributeNS(null,"viewBox", "0 0 100 100")
 
     circle.innerHTML = text
     circle.classList.add('Back_circle')
@@ -31,9 +30,7 @@ function createCircle(){
     })
     circle.style.setProperty('--which-left', ranLeft + '%')
     circle.style.setProperty('--time-interval', ranTime + 's')
-    console.log(circle)
     let main = document.getElementById('mainBack')
-    console.log(main)
 
     main.appendChild(circle)
 }
