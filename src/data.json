@@ -21,5 +21,31 @@
       },
       "hostLink": ""
     }
+  ],
+  "experience": [
+    {
+      "company": "GoFan",
+      "date": "May 2021 - Present",
+      "technologies": ["New Relic", "AWS", "Java", "Springboot", "Javascript", "React", "React Native"],
+      "duties": ["Used New Relic Software to instrument monitoring and alerts across all frontend, backend applications, AWS Lambdas, and the whole AWS environment.\n", "Created and deployed AWS Lambdas in Node.js using Serverless and AWS CDK.", "Contributed to development and maintenance of GoFan frontend and backend applications using React, React Native, and Java Springboot, as well as supporting AWS components (S3, DynamoDB, Lambdas, and RDS database)."]
+    },
+    {
+      "company": "Freelance Software Engineer",
+      "date": "June 2020 - Present",
+      "technologies": ["Java", "Spring", "Ruby on Rails", "Javascript", "React", "React Native"],
+      "duties": []
+    },
+    {
+      "company": "",
+      "date": "",
+      "technologies": [],
+      "duties": []
+    },
+    {
+      "company": "",
+      "date": "",
+      "technologies": [],
+      "duties": []
+    }
   ]
 }
