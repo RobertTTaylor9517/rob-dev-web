@@ -11,6 +11,7 @@ export function projectComponent(div, data){
     button.addEventListener('click', ()=>{
         window.component = "Experience"
     })
+
     div.appendChild(button)
 }
 

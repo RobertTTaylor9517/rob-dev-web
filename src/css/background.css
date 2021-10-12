@@ -4,10 +4,11 @@
 }
 
 .main-div{
-    display: grid;
+    position: absolute;
+    /*display: grid;*/
     background-color: aquamarine;
     /*animation: bgColor 10s infinite linear;*/
-    height: 100vh;
+    height: 100%;
     width: 100%;
     /*grid-template-columns: repeat(auto-fill, 10%);*/
     z-index: 0;
@@ -23,7 +24,7 @@
         animation: Move-Circle-Up var(--time-interval) normal;
         /*grid-column-start: var(--which-column);*/
         overflow: hidden;
-        z-index: 0;
+        z-index: 1;
         left: var(--which-left);
     }
 }

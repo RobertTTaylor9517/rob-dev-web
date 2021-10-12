@@ -24,28 +24,32 @@
   ],
   "experience": [
     {
+      "title": "Senior Application Specialist",
       "company": "GoFan",
       "date": "May 2021 - Present",
-      "technologies": ["New Relic", "AWS", "Java", "Springboot", "Javascript", "React", "React Native"],
-      "duties": ["Used New Relic Software to instrument monitoring and alerts across all frontend, backend applications, AWS Lambdas, and the whole AWS environment.\n", "Created and deployed AWS Lambdas in Node.js using Serverless and AWS CDK.", "Contributed to development and maintenance of GoFan frontend and backend applications using React, React Native, and Java Springboot, as well as supporting AWS components (S3, DynamoDB, Lambdas, and RDS database)."]
+      "technologies": ["New Relic", "AWS", "Jira", "Bitbucket", "Java", "Springboot", "Javascript", "React", "React Native"],
+      "duties": ["Used New Relic Software to instrument monitoring and alerts across all frontend, backend applications, AWS Lambdas, and the whole AWS environment.\n", "Created and deployed AWS Lambdas in Node.js using Serverless and AWS CDK.", "Contributed to development and maintenance of GoFan frontend and backend applications using React, React Native, and Java Springboot, as well as supporting AWS components (S3, DynamoDB, Lambdas, and RDS database).", "Invoked and deployed Artillery Load Test to AWS environment to test API's"]
     },
     {
-      "company": "Freelance Software Engineer",
+      "title": "Freelance Software Engineer",
+      "company": "N/A",
       "date": "June 2020 - Present",
-      "technologies": ["Java", "Spring", "Ruby on Rails", "Javascript", "React", "React Native"],
-      "duties": []
+      "technologies": ["Java", "Spring", "Ruby on Rails", "Javascript", "React", "React Native", "Python"],
+      "duties": ["Developed a RESTful API using Java Spring and Ruby on Rails", "Created unit tests using Junit for Java and Rspec for Ruby", "Develop front end applications with HTML, CSS and Javascript.", "Exposure to React/Redux, React Native, and Angular"]
     },
     {
-      "company": "",
-      "date": "",
-      "technologies": [],
-      "duties": []
+      "title": "Technical Support Engineer",
+      "company": "New Relic, Inc",
+      "date": "September 2020 - May 2021",
+      "technologies": ["Zendesk", "Jira","Java", "Python"],
+      "duties": ["Worked across teams to solve complex technical customer problems involving the Java and Python agents.", "Supported New Relic customers by solving various installation, configuration, and data exploration requests.", "Connected with our software engineering teams to resolve raised customer issues.", "Advocate for our customers to our Product Organization by providing feedback on feature requests and bugs that could improve the customer experience of the New Relic platform.", "Created test environments using different web frameworks (JBoss, Spring, Tomcat, Websphere, Django, Flask) to recreate errors for troubleshooting.", " Participated in KCS to create customer facing documentation for common issues and fixes."]
     },
     {
-      "company": "",
-      "date": "",
+      "title": "Customer Service Representative - Geek Squad",
+      "company": "Wipro Limited",
+      "date": "December 2018 - November 2019",
       "technologies": [],
-      "duties": []
+      "duties": [" Handled 45 -55 incoming requests per day", "Assisted customers in troubleshooting home network, computer, and theater systems over the phone.", " Followed through using process implementation to ensure all questions and issues are resolved.", "Provided Geek Squad service recommendations if issue could not be fixed over the phone.", "Updated database with relevant information regarding the customer and the issue they called in about."]
     }
   ]
 }
