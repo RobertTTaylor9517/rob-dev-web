@@ -7,3 +7,29 @@
     border-radius: 25px;
     top: 10px;
 }
+
+#side-bar{
+    position: absolute;
+    z-index: 2;
+    height: 110vh;
+    width: 15%;
+    background-color: black;
+    /*opacity: 0.6;*/
+}
+
+#side-bar-mobile{
+
+}
+
+ul#side-bar{
+    position: absolute;
+    z-index: 3;
+    color: white;
+}
+li#side-bar{
+    height: 100px;
+}
+
+#side-bar-item:hover{
+    opacity: 1;
+}
