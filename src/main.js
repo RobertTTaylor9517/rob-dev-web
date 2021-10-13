@@ -11,13 +11,13 @@ export function generateMain(){
     document.body.appendChild(navigationBar())
     let div = document.createElement('div')
 
-    // div.classList.add('top-div-desktop')
-    // setComponent(div)
-    // setInterval(()=>{
-    //     // console.log('check')
-    //     checkComponent(div)
-    // }, 10)
-    // console.log(data)
+    div.classList.add('top-div-desktop')
+    setComponent(div)
+    setInterval(()=>{
+        // console.log('check')
+        checkComponent(div)
+    }, 10)
+    console.log(data)
 }
 
 function clearDiv(div){
@@ -54,12 +54,19 @@ function navigationBar(){
     let navigation = document.createElement('div')
     navigation.id = 'side-bar'
     let list = document.createElement('ul')
-    list.id = 'side-bar'
+    list.id = 'side-bar-list'
     navigation.appendChild(list)
 
     components.forEach((page) => {
         let block = document.createElement('li')
-        block.textContent = page
+        let link = document.createElement('a')
+        link.textContent = page
+        link.id = 'side-bar-item'
+        // link.href = ''
+        link.addEventListener('click', () => {
+            window.component = page
+        })
+        block.appendChild(link)
         // block.id = 'side-bar'
         list.appendChild(block)
     })

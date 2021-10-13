@@ -32,7 +32,15 @@ export default class ResumeEntry{
     }
 
     createDutiesList(){
+        let ul = document.createElement('ul')
 
+        this.duties.forEach((duty) => {
+            let li = document.createElement('li')
+            li.textContent = duty
+            ul.appendChild(li)
+        })
+
+        return ul;
     }
 
     render(){
@@ -47,11 +55,13 @@ export default class ResumeEntry{
         dateNode.textContent = this.date
 
         let technologiesTable = this.createTechnologies()
+        let dutiesList = this.createDutiesList()
 
         div.appendChild(titleNode)
         div.appendChild(companyNode)
         div.appendChild(dateNode)
         div.appendChild(technologiesTable)
+        div.appendChild(dutiesList)
         div.classList.add('resume-div')
 
         return div;

@@ -10,7 +10,7 @@ export function generateBackground(){
 
     createCircle()
     setInterval(() => {
-        if(count <= 25){
+        if(count <= 30){
             createCircle()
         }
     }, 100)
